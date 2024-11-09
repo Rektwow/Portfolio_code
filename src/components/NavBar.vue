@@ -31,12 +31,12 @@
     <!-- Navbar link -->
     <nav
       :class="[
-        'fixed inset-0 z-20 flex-col items-center justify-center bg-[#1a1a1a] md:relative md:bg-transparent md:flex md:justify-content md:flex-row',
+        'fixed inset-0 z-20 flex-col items-center justify-center bg-[#1a1a1a] md:relative md:bg-transparent md:flex md:justify-between md:flex-row',
         isMenuOpen ? 'block' : 'hidden',
       ]"
     >
       <ul
-        class="flex flex-col items-center space-y-5 md:flex-row md:space-x-5 md:space-y-0"
+        class="flex flex-col items-center space-y-5 md:flex-row md:space-x-5 md:space-y-0 md:mt-0 mt-12"
       >
         <li v-for="item in Menu" :key="item.name">
           <a
