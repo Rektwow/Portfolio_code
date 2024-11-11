@@ -2,7 +2,7 @@
   <header
     class="flex justify-between items-center p-6 bg-opacity-50 relative z-20"
   >
-    <div class="text-white text-3xl font-bold">LOGO</div>
+    <div class="text-white text-4xl font-bold">LOGO</div>
     <!-- Mobile toggle button -->
     <div class="md:hidden z-30">
       <button
@@ -41,7 +41,7 @@
         <li v-for="item in Menu" :key="item.name">
           <a
             :href="item.href"
-            class="block text-white transition hover:text-primary ease-linear text-2xl md:text-lg"
+            class="block text-white transition hover:text-primary ease-linear text-3xl md:text-2xl"
             @click="scrollToSection(item.href)"
             >{{ item.name }}</a
           >
@@ -57,7 +57,7 @@ const Menu = ref([
   { name: "About Me", href: "#about" },
   { name: "Skills", href: "#skills" },
   { name: "Projects", href: "#projects" },
-  { name: "Testimonials", href: "#testimonials" },
+  /*   { name: "Testimonials", href: "#testimonials" }, */
   { name: "Contact", href: "#contact" },
 ]);
 const isMenuOpen = ref(false);
