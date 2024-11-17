@@ -4,6 +4,7 @@
     <NavBar />
     <HeroSection />
     <ServicesSection />
+    <AboutSection />
   </div>
 </template>
 <script setup>
@@ -16,5 +17,8 @@ const HeroSection = defineAsyncComponent(() =>
 );
 const ServicesSection = defineAsyncComponent(() =>
   import("@/components/ServicesSection.vue")
+);
+const AboutSection = defineAsyncComponent(() =>
+  import("@/components/AboutSection.vue")
 );
 </script>
