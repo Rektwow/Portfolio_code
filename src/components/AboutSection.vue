@@ -16,7 +16,7 @@
           <div
             v-for="element in education"
             :key="element.id"
-            class="flex items-center md:w-[80%] w-full rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641]"
+            class="flex items-center md:w-[80%] w-full rounded-xl bg-[#111a3e] shadow-lg border border-[#f59e0b]"
           >
             <div class="w-1/4">
               <img
@@ -58,7 +58,7 @@
         </p>
         <div class="grid grid-cols-3 gap-4 max-w-lg pt-8">
           <div
-            class="text-center rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641] p-3"
+            class="text-center rounded-xl bg-[#111a3e] shadow-lg border border-[#f59e0b] p-3"
           >
             <h3 class="text-white font-bold text-xl sm:text-2xl lg:text-3xl">
               +200
@@ -67,7 +67,7 @@
           </div>
 
           <div
-            class="text-center rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641] p-3"
+            class="text-center rounded-xl bg-[#111a3e] shadow-lg border border-[#f59e0b] p-3"
           >
             <h3 class="text-white font-bold text-xl sm:text-2xl lg:text-3xl">
               +300
@@ -76,7 +76,7 @@
           </div>
 
           <div
-            class="text-center rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641] p-3"
+            class="text-center rounded-xl bg-[#111a3e] shadow-lg border border-[#f59e0b] p-3"
           >
             <h3 class="text-white font-bold text-xl sm:text-2xl lg:text-3xl">
               +7

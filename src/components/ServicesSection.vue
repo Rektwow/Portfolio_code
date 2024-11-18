@@ -10,7 +10,7 @@
         v-for="service in services"
         :key="service.id"
         data-aos="fade-ip"
-        class="px-8 py-12 rounded-xl bg-[#f59e0b] shadow-lg border border-primary"
+        class="px-8 py-12 rounded-xl bg-[#111a3e] shadow-lg border border-primary"
       >
         <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
           <div>
