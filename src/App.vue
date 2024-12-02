@@ -6,6 +6,7 @@
     <ServicesSection />
     <ExperienceAndSkills />z
     <AboutSection />
+    <LatestProjects />
   </div>
 </template>
 <script setup>
@@ -17,4 +18,5 @@ const HeroSection = defineAsyncComponent(() => import("@/components/HeroSection.
 const ServicesSection = defineAsyncComponent(() => import("@/components/ServicesSection.vue"));
 const AboutSection = defineAsyncComponent(() => import("@/components/AboutSection.vue"));
 const ExperienceAndSkills = defineAsyncComponent(() => import("@/components/ExperienceAndSkills.vue"));
+const LatestProjects = defineAsyncComponent(() => import("@/components/LatestProjects.vue"));
 </script>
